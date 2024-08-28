@@ -9,7 +9,7 @@ const Pets = () => {
   useEffect(() => {
     const fetchRequests = async () => {
       try {
-        const response = await fetch('http://localhost:999/approvedPets')
+        const response = await fetch('https://adoptly-backend.onrender.com/approvedPets')
         if (!response.ok) {
           throw new Error('An error occurred')
         }

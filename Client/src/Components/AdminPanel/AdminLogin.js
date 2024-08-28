@@ -11,7 +11,7 @@ const AdminLogin = () => {
   useEffect(() => {
     const fetchUsersData = async () => {
       try {
-        const response = await fetch('http://localhost:999/admin/credentials');
+        const response = await fetch('https://adoptly-backend.onrender.com/admin/credentials');
         if (!response.ok) {
           throw new Error('Failed to fetch');
         }

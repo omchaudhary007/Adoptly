@@ -7,7 +7,7 @@ const PostingPets = () => {
 
   const fetchRequests = async () => {
     try {
-      const response = await fetch('http://localhost:999/requests')
+      const response = await fetch('https://adoptly-backend.onrender.com/requests')
       if (!response.ok) {
         throw new Error('An error occurred')
       }
