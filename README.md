@@ -11,7 +11,8 @@ Adoptly is a simple pet adoption platform built using the MERN stack. It allows 
 - **Express Interest**: Other users can show their interest in adopting a specific pet.
 - **Admin-Driven Adoption Process**: The admin handles the entire process, from post approval to selecting the final adopter.
 
-  ##### Admin id and password:- admin,123
+  #### Admin id and password:- admin,123
+  #### Admin Endpoint:- https://adoptly.vercel.app/admin
 
 ## Technologies Used
 
